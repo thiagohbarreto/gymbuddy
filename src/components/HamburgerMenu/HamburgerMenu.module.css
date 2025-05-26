@@ -1,0 +1,63 @@
+.menuContainer {
+  position: relative;
+  padding: 1rem;
+}
+.menuContainer .hamburger {
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+  position: relative;
+  color: var(--color-text);
+}
+.menuContainer .dropdown {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 200px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 0;
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+.menuContainer .dropdown.open {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.menuContainer .dropdown a {
+  display: block;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.2s;
+}
+.menuContainer .dropdown a:hover {
+  background-color: #f5f5f5;
+}
+@media (min-width: 768px) {
+  .menuContainer .hamburger {
+    display: none;
+  }
+  .menuContainer .dropdown {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+  .menuContainer .dropdown a {
+    padding: 0.5rem 1rem;
+  }
+}/*# sourceMappingURL=HamburgerMenu.module.css.map */

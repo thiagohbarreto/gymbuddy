@@ -1,0 +1,16 @@
+.toggle {
+  background-color: antiquewhite;
+  color: black;
+  height: 3rem;
+  width: 5rem;
+  border-radius: 16px;
+  text-decoration: none;
+  box-shadow: 20px;
+
+  &:hover {
+    background-color: chocolate;
+    cursor: pointer;
+    border-color: cadetblue;
+    border-style: solid;
+  }
+}

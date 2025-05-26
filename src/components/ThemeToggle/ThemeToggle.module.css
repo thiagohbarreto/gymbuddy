@@ -1,0 +1,15 @@
+.toggle {
+  background-color: antiquewhite;
+  color: black;
+  height: 3rem;
+  width: 5rem;
+  border-radius: 16px;
+  text-decoration: none;
+  box-shadow: 20px;
+}
+.toggle:hover {
+  background-color: chocolate;
+  cursor: pointer;
+  border-color: cadetblue;
+  border-style: solid;
+}/*# sourceMappingURL=ThemeToggle.module.css.map */

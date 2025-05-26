@@ -1,0 +1,47 @@
+.iconList {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-left: 0;
+}
+.iconList li {
+  list-style: none;
+}
+.iconList li a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-primary);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.iconList li a:hover {
+  color: var(--color-hover);
+}
+.iconList li a svg {
+  flex-shrink: 0;
+}
+
+.createSection {
+  margin-top: 2rem;
+}
+.createSection button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+.createSection button:hover {
+  background-color: var(--color-hover);
+}
+.createSection button svg {
+  flex-shrink: 0;
+}/*# sourceMappingURL=Home.module.css.map */

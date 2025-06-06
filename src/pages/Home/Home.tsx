@@ -56,7 +56,7 @@ const Home = () => {
 
   return (
     <>
-      <h1 className={styles.tituloCentralizado}>Home</h1>
+      <h1 className={styles.tituloCentralizado}>Treinos</h1>
 
       <div className={styles.recentWorkout}>
         {Object.keys(treinosPorDivisao).length > 0 ? (
@@ -69,7 +69,7 @@ const Home = () => {
                 {treinos.map((treino) => (
                   <div key={treino.identificador} className={styles.treinoItem}>
                     <span className={styles.treinoLetra}>
-                      Treino {treino.identificador}
+                      Treino {treino.identificador}:
                     </span>
                     <div className={styles.treinoAcoes}>
                       <Link

@@ -39,7 +39,7 @@
     button {
       padding: 0.6rem 1rem;
       background-color: var(--color-primary);
-      color: white;
+      color: var(--color-bg);
       font-weight: 500;
       border-radius: 8px;
       border: none;
@@ -59,6 +59,6 @@
   .observacoes {
     margin-top: 0.5rem;
     font-size: 0.9rem;
-    color: #555;
+    color: var(--color-primary);
   }
 }

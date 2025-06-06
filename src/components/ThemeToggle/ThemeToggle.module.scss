@@ -1,6 +1,7 @@
 .toggle {
-  background-color: antiquewhite;
-  color: black;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-weight: 500;
   height: 3rem;
   width: 5rem;
   border-radius: 16px;
@@ -8,9 +9,8 @@
   box-shadow: 20px;
 
   &:hover {
-    background-color: chocolate;
     cursor: pointer;
-    border-color: cadetblue;
+    border-color: var(--color-hover);
     border-style: solid;
   }
 }

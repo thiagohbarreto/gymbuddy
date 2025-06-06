@@ -1,19 +1,19 @@
 :root {
   --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
-  --color-bg: #f9f9f9;
-  --color-text: #222;
-  --color-primary: #4e73df;
-  --color-hover: #384891;
-  --color-card: #ffffff;
+  --color-bg: #f3f3e0;
+  --color-text: #121212;
+  --color-primary: #27548a;
+  --color-hover: #183b4e;
+  --color-card: #dda853;
 }
 
 [data-theme="dark"] {
   --color-bg: #121212;
-  --color-text: #f1f1f1;
-  --color-primary: #60a5fa;
-  --color-hover: #1e3a8a;
-  --color-card: #000000;
+  --color-text: #f3f3e0;
+  --color-primary: #dda853;
+  --color-hover: #a77463;
+  --color-card: #27548a;
 }
 
 *,

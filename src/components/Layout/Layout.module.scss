@@ -6,7 +6,7 @@
 
 .header {
   background-color: var(--color-primary);
-  color: var(--color-card);
+  color: var(--color-bg);
   padding: 1rem;
   text-align: center;
   font-size: 1.25rem;
@@ -20,7 +20,7 @@
 
 .footer {
   background-color: var(--color-primary);
-  color: white;
+  color: var(--color-bg);
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;

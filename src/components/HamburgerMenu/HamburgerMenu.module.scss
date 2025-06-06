@@ -4,6 +4,7 @@
 
   .hamburger {
     font-size: 28px;
+    font-weight: 500;
     background: none;
     border: none;
     cursor: pointer;
@@ -14,10 +15,11 @@
 
   .dropdown {
     position: absolute;
+    font-weight: 500;
     top: 50px;
     left: 0;
-    width: 200px;
-    background: var(--color-card);
+    width: 100px;
+    background: var(--color-bg);
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);

@@ -28,7 +28,7 @@ label {
 }
 
 input {
-  border: 1px solid #d1d5db;
+  border: 1px solid var(--color-primary);
   border-radius: 6px;
   padding: 8px 12px;
   font-size: 1em;
@@ -37,13 +37,13 @@ input {
 }
 
 input:focus {
-  border-color: #4f46e5;
+  border-color: var(--color-bg);
   outline: none;
 }
 
 button[type="submit"] {
-  background: #4f46e5;
-  color: #fff;
+  background: var(--color-primary);
+  color: var(--color-bg);
   border: none;
   border-radius: 8px;
   padding: 10px 0;
@@ -55,11 +55,11 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background: #3730a3;
+  background: var(--color-hover);
 }
 
 .exercicioCard {
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--color-primary);
   border-radius: 10px;
   background: var(--color-card);
   padding: 16px;

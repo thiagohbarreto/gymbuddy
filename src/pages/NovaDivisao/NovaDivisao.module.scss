@@ -1,9 +1,15 @@
 .novaDivisao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   h1 {
     margin-bottom: 1rem;
   }
 
   ul {
+    display: flex;
+    align-items: center;
     list-style: none;
     padding: 0;
     display: grid;
@@ -11,16 +17,18 @@
   }
 
   button {
+    width: 100px;
     padding: 0.6rem 1.2rem;
     border-radius: 6px;
     font-size: 1rem;
-    background: #007bff;
-    color: white;
+    font-weight: 500;
+    background: var(--color-primary);
+    color: var(--color-bg);
     border: none;
     cursor: pointer;
 
     &:hover {
-      background: #005dc1;
+      background: var(--color-hover);
     }
   }
 }
